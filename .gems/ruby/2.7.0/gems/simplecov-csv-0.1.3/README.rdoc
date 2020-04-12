@@ -1,0 +1,18 @@
+= SimpleCov CSV Formatter gem
+
+== Install
+
+    $ [sudo] gem install simplecov_csv
+
+== Usage
+    require 'simplecov_csv'
+    SimpleCov.formatter = SimpleCov::Formatter::CSVFormatter
+
+== TODO
+The actual version generates only one simple CSV file.
+
+== Credits
+
+Author:: Fernando Guillen: http://fernandoguillen.info
+Copyright:: Copyright (c) 2010 Fernando Guillen
+License:: Released under the MIT license.
